@@ -76,7 +76,9 @@
             "GdsLayerNo": 31,
             "GdsDatatype": {    
                 "Draw": 0,
-                "Pin": 17
+                "Pin": 17,
+		"Label": 4,
+                "Blockage": 5
             },
             "Direction": "V",
             "Color": [],

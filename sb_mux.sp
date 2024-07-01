@@ -6,46 +6,24 @@
 
 *** PROCESS DATA AND VOLTAGE LEVELS
 
-* Voltage levels
-.PARAM supply_v = 1.2
-.PARAM sram_v = 1.2
-.PARAM sram_n_v = 0.0
-.PARAM Rcurrent = 1.5e-06
-.PARAM supply_v_lp = 1.2
-
-.PARAM sense_v = 1.17
-
-.PARAM mtj_worst_high = 4840.0
-.PARAM mtj_worst_low = 3060.0
-.PARAM mtj_nominal_low = 2500.0
-
-.PARAM mtj_nominal_high = 6250
-
-.PARAM vref = 0.627
-.PARAM vclmp = 0.653
-* Geometry
-.PARAM gate_length = 60e-9
-.PARAM trans_diffusion_length = 52e-9
-.PARAM min_tran_width = 120e-9
-.PARAM rest_length_factor=1
 
 ****final sizes**********
 .PARAM ptran_sb_mux_L1_nmos  =  600e-9
 .PARAM ptran_sb_mux_L2_nmos  =  720e-9
 .PARAM rest_sb_mux_pmos  =  120e-9
 .PARAM inv_sb_mux_1_nmos  =  840e-9
-.PARAM inv_sb_mux_1_pmos  =  1574e-9
+.PARAM inv_sb_mux_1_pmos  =  1576e-9
 .PARAM inv_sb_mux_2_nmos  =  840e-9
 .PARAM inv_sb_mux_2_pmos  =  4200e-9
 .PARAM ptran_cb_mux_L1_nmos  =  360e-9
 .PARAM ptran_cb_mux_L2_nmos  =  480e-9
 .PARAM rest_cb_mux_pmos  =  120e-9
 .PARAM inv_cb_mux_1_nmos  =  360e-9
-.PARAM inv_cb_mux_1_pmos  =  762e-9
+.PARAM inv_cb_mux_1_pmos  =  764e-9
 .PARAM inv_cb_mux_2_nmos  =  240e-9
 .PARAM inv_cb_mux_2_pmos  =  1200e-9
 .PARAM inv_lut_0sram_driver_2_nmos  =  240e-9
-.PARAM inv_lut_0sram_driver_2_pmos  =  650e-9
+.PARAM inv_lut_0sram_driver_2_pmos  =  652e-9
 .PARAM ptran_lut_L1_nmos  =  480e-9
 .PARAM ptran_lut_L2_nmos  =  480e-9
 .PARAM rest_lut_int_buffer_pmos  =  120e-9
@@ -57,37 +35,37 @@
 .PARAM ptran_lut_L4_nmos  =  840e-9
 .PARAM rest_lut_out_buffer_pmos  =  120e-9
 .PARAM inv_lut_out_buffer_1_nmos  =  600e-9
-.PARAM inv_lut_out_buffer_1_pmos  =  1249e-9
+.PARAM inv_lut_out_buffer_1_pmos  =  1248e-9
 .PARAM inv_lut_out_buffer_2_nmos  =  480e-9
 .PARAM inv_lut_out_buffer_2_pmos  =  2400e-9
 .PARAM inv_lut_a_driver_2_nmos  =  720e-9
-.PARAM inv_lut_a_driver_2_pmos  =  2198e-9
+.PARAM inv_lut_a_driver_2_pmos  =  2200e-9
 .PARAM inv_lut_a_driver_not_1_nmos  =  480e-9
-.PARAM inv_lut_a_driver_not_1_pmos  =  1395e-9
+.PARAM inv_lut_a_driver_not_1_pmos  =  1396e-9
 .PARAM inv_lut_a_driver_not_2_nmos  =  360e-9
-.PARAM inv_lut_a_driver_not_2_pmos  =  673e-9
+.PARAM inv_lut_a_driver_not_2_pmos  =  672e-9
 .PARAM inv_lut_b_driver_2_nmos  =  480e-9
-.PARAM inv_lut_b_driver_2_pmos  =  1385e-9
+.PARAM inv_lut_b_driver_2_pmos  =  1384e-9
 .PARAM inv_lut_b_driver_not_1_nmos  =  480e-9
-.PARAM inv_lut_b_driver_not_1_pmos  =  1407e-9
+.PARAM inv_lut_b_driver_not_1_pmos  =  1408e-9
 .PARAM inv_lut_b_driver_not_2_nmos  =  360e-9
-.PARAM inv_lut_b_driver_not_2_pmos  =  723e-9
+.PARAM inv_lut_b_driver_not_2_pmos  =  724e-9
 .PARAM inv_lut_c_driver_2_nmos  =  720e-9
-.PARAM inv_lut_c_driver_2_pmos  =  2203e-9
+.PARAM inv_lut_c_driver_2_pmos  =  2204e-9
 .PARAM inv_lut_c_driver_not_1_nmos  =  600e-9
-.PARAM inv_lut_c_driver_not_1_pmos  =  1799e-9
+.PARAM inv_lut_c_driver_not_1_pmos  =  1800e-9
 .PARAM inv_lut_c_driver_not_2_nmos  =  360e-9
-.PARAM inv_lut_c_driver_not_2_pmos  =  747e-9
+.PARAM inv_lut_c_driver_not_2_pmos  =  748e-9
 .PARAM inv_lut_d_driver_2_nmos  =  240e-9
-.PARAM inv_lut_d_driver_2_pmos  =  693e-9
+.PARAM inv_lut_d_driver_2_pmos  =  692e-9
 .PARAM inv_lut_d_driver_not_1_nmos  =  240e-9
 .PARAM inv_lut_d_driver_not_1_pmos  =  692e-9
 .PARAM inv_lut_d_driver_not_2_nmos  =  120e-9
-.PARAM inv_lut_d_driver_not_2_pmos  =  213e-9
+.PARAM inv_lut_d_driver_not_2_pmos  =  212e-9
 .PARAM ptran_ff_input_select_nmos  =  480e-9
 .PARAM rest_ff_input_select_pmos  =  120e-9
 .PARAM inv_ff_input_1_nmos  =  360e-9
-.PARAM inv_ff_input_1_pmos  =  983e-9
+.PARAM inv_ff_input_1_pmos  =  984e-9
 .PARAM tgate_ff_1_nmos  =  120e-9
 .PARAM tgate_ff_1_pmos  =  120e-9
 .PARAM tran_ff_set_n_pmos  =  120e-9
@@ -122,7 +100,8 @@
 .PARAM ptran_local_mux_L2_nmos  =  240e-9
 .PARAM rest_local_mux_pmos  =  120e-9
 .PARAM inv_local_mux_1_nmos  =  120e-9
-.PARAM inv_local_mux_1_pmos  =  353e-9
+.PARAM inv_local_mux_1_pmos  =  352e-9
+
 
 *** BASIC SUBCIRCUITS
 
@@ -131,7 +110,7 @@
 * Pass-transistor
 ******************************************************************************************
 .subckt ptran n_in n_out n_gate n_gnd Wn=120e-9
-m1 n_in n_gate n_out n_gnd lvtnch L=60e-9 W=Wn nf=2 m=1
+m1 n_in n_gate n_out n_gnd lvtnch L=60e-9 W=Wn nf=2 m=1 stack=1 parallel=1
 .ends ptran
 
 
@@ -165,7 +144,7 @@ XMPTGATE n_in n_gate_pmos n_out n_vdd hvtpch L=60e-9 W=Wp nf=2 m=1
 * Level-restorer PMOS
 ******************************************************************************************
 .subckt rest n_pull n_gate n_vdd n_gnd Wp=120e-9
-XMPREST n_pull n_gate n_vdd n_vdd lvtpch L=60e-9*rest_length_factor W=Wp
+XMPREST n_pull n_gate n_vdd n_vdd lvtpch L=60e-9 W=Wp
 .ends rest
 
 
@@ -273,7 +252,7 @@ XMPUP2 n_out n_in n_vdd n_vdd hvtpch L=60e-9 W=Wp nf=2 m=1
 ******************************************************************************************
 * Transmission gate
 ******************************************************************************************
-.subckt RAM_tgate n_in n_out n_gate_nmos n_gate_pmos n_vdd n_gnd Wn=200n Wp=250n
+.subckt RAM_tgate n_in n_out n_gate_nmos n_gate_pmos n_vdd n_gnd Wn=200e-9 Wp=252e-9
 XMNTGATE n_in n_gate_nmos n_out n_gnd lvtnch L=60e-9 W=Wn nf=2 m=1
 XMPTGATE n_in n_gate_pmos n_out n_vdd lvtpch L=60e-9 W=Wp nf=2 m=1
 .ends RAM_tgate
@@ -282,7 +261,7 @@ XMPTGATE n_in n_gate_pmos n_out n_vdd lvtpch L=60e-9 W=Wp nf=2 m=1
 ******************************************************************************************
 * Transmission gate
 ******************************************************************************************
-.subckt RAM_tgate_lp n_in n_out n_gate_nmos n_gate_pmos n_vdd n_gnd Wn=200n Wp=250n
+.subckt RAM_tgate_lp n_in n_out n_gate_nmos n_gate_pmos n_vdd n_gnd Wn=200e-9 Wp=252e-9
 XMNTGATE n_in n_gate_nmos n_out n_gnd hvtnch  L=60e-9 W=Wn nf=2 m=1
 XMPTGATE n_in n_gate_pmos n_out n_vdd hvtpch L=60e-9 W=Wp nf=2 m=1
 .ends RAM_tgate_lp
@@ -306,7 +285,7 @@ Xinv_sb_mux_2 n_1_1 n_out n_vdd n_gnd inv Wn=inv_sb_mux_2_nmos Wp=inv_sb_mux_2_p
 * sb_mux subcircuit (12:1), turned off 
 ******************************************************************************************
 .subckt sb_mux_off n_in n_gate n_gate_n n_vdd n_gnd
-Xptran_sb_mux_L1 n_in n_gnd n_gnd n_gnd ptran Wn=ptran_sb_mux_L1_nmos
+Xptran_sb_mux_L1 n_gnd n_gnd n_in n_gnd ptran Wn=ptran_sb_mux_L1_nmos
 .ends sb_mux_off
 
 
@@ -315,9 +294,9 @@ Xptran_sb_mux_L1 n_in n_gnd n_gnd n_gnd ptran Wn=ptran_sb_mux_L1_nmos
 ******************************************************************************************
 .subckt sb_mux_partial n_in n_gate n_gate_n n_vdd n_gnd
 Xptran_sb_mux_L1 n_in n_1 n_gate n_gnd ptran Wn=ptran_sb_mux_L1_nmos
-Xptran_sb_mux_L1_1h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_sb_mux_L1_nmos
-Xptran_sb_mux_L1_2h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_sb_mux_L1_nmos
-Xptran_sb_mux_L1_3h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_sb_mux_L1_nmos
+Xptran_sb_mux_L1_1h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_sb_mux_L1_nmos
+Xptran_sb_mux_L1_2h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_sb_mux_L1_nmos
+Xptran_sb_mux_L1_3h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_sb_mux_L1_nmos
 Xptran_sb_mux_L2 n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_sb_mux_L2_nmos
 .ends sb_mux_partial
 
@@ -327,12 +306,12 @@ Xptran_sb_mux_L2 n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_sb_mux_L2_nmos
 ******************************************************************************************
 .subckt sb_mux_on_mux_only n_in n_out n_gate n_gate_n n_vdd n_gnd
 Xptran_sb_mux_L1 n_in n_1 n_gate n_gnd ptran Wn=ptran_sb_mux_L1_nmos
-Xptran_sb_mux_L1_1h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_sb_mux_L1_nmos
-Xptran_sb_mux_L1_2h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_sb_mux_L1_nmos
-Xptran_sb_mux_L1_3h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_sb_mux_L1_nmos
+Xptran_sb_mux_L1_1h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_sb_mux_L1_nmos
+Xptran_sb_mux_L1_2h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_sb_mux_L1_nmos
+Xptran_sb_mux_L1_3h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_sb_mux_L1_nmos
 Xptran_sb_mux_L2 n_1 n_out n_gate n_gnd ptran Wn=ptran_sb_mux_L2_nmos
-Xptran_sb_mux_L2_1h n_gnd n_out n_gnd n_gnd ptran Wn=ptran_sb_mux_L2_nmos
-Xptran_sb_mux_L2_2h n_gnd n_out n_gnd n_gnd ptran Wn=ptran_sb_mux_L2_nmos
+Xptran_sb_mux_L2_1h n_out n_gnd n_gnd n_gnd ptran Wn=ptran_sb_mux_L2_nmos
+Xptran_sb_mux_L2_2h n_out n_gnd n_gnd n_gnd ptran Wn=ptran_sb_mux_L2_nmos
 .ends sb_mux_on_mux_only
 
 
@@ -368,10 +347,10 @@ Xptran_cb_mux_L1 n_in n_gnd n_gnd n_gnd ptran Wn=ptran_cb_mux_L1_nmos
 ******************************************************************************************
 .subckt cb_mux_partial n_in n_gate n_gate_n n_vdd n_gnd
 Xptran_cb_mux_L1 n_in n_1 n_gate n_gnd ptran Wn=ptran_cb_mux_L1_nmos
-Xptran_cb_mux_L1_1h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_cb_mux_L1_nmos
-Xptran_cb_mux_L1_2h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_cb_mux_L1_nmos
-Xptran_cb_mux_L1_3h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_cb_mux_L1_nmos
-Xptran_cb_mux_L1_4h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_cb_mux_L1_nmos
+Xptran_cb_mux_L1_1h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_cb_mux_L1_nmos
+Xptran_cb_mux_L1_2h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_cb_mux_L1_nmos
+Xptran_cb_mux_L1_3h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_cb_mux_L1_nmos
+Xptran_cb_mux_L1_4h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_cb_mux_L1_nmos
 Xptran_cb_mux_L2 n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_cb_mux_L2_nmos
 .ends cb_mux_partial
 
@@ -381,13 +360,13 @@ Xptran_cb_mux_L2 n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_cb_mux_L2_nmos
 ******************************************************************************************
 .subckt cb_mux_on_mux_only n_in n_out n_gate n_gate_n n_vdd n_gnd
 Xptran_cb_mux_L1 n_in n_1 n_gate n_gnd ptran Wn=ptran_cb_mux_L1_nmos
-Xptran_cb_mux_L1_1h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_cb_mux_L1_nmos
-Xptran_cb_mux_L1_2h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_cb_mux_L1_nmos
-Xptran_cb_mux_L1_3h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_cb_mux_L1_nmos
-Xptran_cb_mux_L1_4h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_cb_mux_L1_nmos
+Xptran_cb_mux_L1_1h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_cb_mux_L1_nmos
+Xptran_cb_mux_L1_2h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_cb_mux_L1_nmos
+Xptran_cb_mux_L1_3h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_cb_mux_L1_nmos
+Xptran_cb_mux_L1_4h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_cb_mux_L1_nmos
 Xptran_cb_mux_L2 n_1 n_out n_gate n_gnd ptran Wn=ptran_cb_mux_L2_nmos
-Xptran_cb_mux_L2_1h n_gnd n_out n_gnd n_gnd ptran Wn=ptran_cb_mux_L2_nmos
-Xptran_cb_mux_L2_2h n_gnd n_out n_gnd n_gnd ptran Wn=ptran_cb_mux_L2_nmos
+Xptran_cb_mux_L2_1h n_out n_gnd n_gnd n_gnd ptran Wn=ptran_cb_mux_L2_nmos
+Xptran_cb_mux_L2_2h n_out n_gnd n_gnd n_gnd ptran Wn=ptran_cb_mux_L2_nmos
 .ends cb_mux_on_mux_only
 
 
@@ -404,14 +383,14 @@ Xcb_mux_driver n_1_1 n_out n_vdd n_gnd cb_mux_driver
 * 4-LUT subcircuit 
 ******************************************************************************************
 .subckt lut n_in n_out n_a n_b n_c n_d n_e n_f n_vdd n_gnd
-Xinv_lut_sram_driver_1 n_in n_1_1 n_vdd n_gnd inv Wn=120n Wp=200.04n
+Xinv_lut_sram_driver_1 n_in n_1_1 n_vdd n_gnd inv Wn=120e-9 Wp=200e-9
 Xinv_lut_sram_driver_2 n_1_1 n_2_1 n_vdd n_gnd inv Wn=inv_lut_0sram_driver_2_nmos Wp=inv_lut_0sram_driver_2_pmos
 
 * First chain
 Xptran_lut_L1 n_2_1 n_3_1 n_a n_gnd ptran Wn=ptran_lut_L1_nmos
-Xptran_lut_L1h n_gnd n_3_1 n_gnd n_gnd ptran Wn=ptran_lut_L1_nmos
+Xptran_lut_L1h n_3_1 n_gnd n_gnd n_gnd ptran Wn=ptran_lut_L1_nmos
 Xptran_lut_L2 n_3_2 n_4_1 n_b n_gnd ptran Wn=ptran_lut_L2_nmos
-Xptran_lut_L2h n_gnd n_4_1 n_gnd n_gnd ptran Wn=ptran_lut_L2_nmos
+Xptran_lut_L2h n_4_1 n_gnd n_gnd n_gnd ptran Wn=ptran_lut_L2_nmos
 
 * Internal buffer 
 Xrest_lut_int_buffer n_4_2 n_5_1 n_vdd n_gnd rest Wp=rest_lut_int_buffer_pmos
@@ -420,9 +399,9 @@ Xinv_lut_int_buffer_2 n_5_1 n_6_1 n_vdd n_gnd inv Wn=inv_lut_int_buffer_2_nmos W
 
 * Second chain
 Xptran_lut_L3 n_6_1 n_7_1 n_c n_gnd ptran Wn=ptran_lut_L3_nmos
-Xptran_lut_L3h n_gnd n_7_1 n_gnd n_gnd ptran Wn=ptran_lut_L3_nmos
+Xptran_lut_L3h n_7_1 n_gnd n_gnd n_gnd ptran Wn=ptran_lut_L3_nmos
 Xptran_lut_L4 n_7_2 n_8_1 n_d n_gnd ptran Wn=ptran_lut_L4_nmos
-Xptran_lut_L4h n_gnd n_8_1 n_gnd n_gnd ptran Wn=ptran_lut_L4_nmos
+Xptran_lut_L4h n_8_1 n_gnd n_gnd n_gnd ptran Wn=ptran_lut_L4_nmos
 
 * Output buffer 
 Xrest_lut_out_buffer n_8_2 n_9_1 n_vdd n_gnd rest Wp=rest_lut_out_buffer_pmos
@@ -575,7 +554,7 @@ Xinv_ff_output_driver n_6_1 n_out n_vdd n_gnd inv Wn=inv_ff_output_driver_nmos W
 ******************************************************************************************
 .subckt local_ble_output n_in n_out n_gate n_gate_n n_vdd n_gnd
 Xptran_local_ble_output n_in n_1_1 n_gate n_gnd ptran Wn=ptran_local_ble_output_nmos
-Xptran_local_ble_output_h n_gnd n_1_1 n_gnd n_gnd ptran Wn=ptran_local_ble_output_nmos
+Xptran_local_ble_output_h n_1_1 n_gnd n_gnd n_gnd ptran Wn=ptran_local_ble_output_nmos
 Xrest_local_ble_output n_1_2 n_2_1 n_vdd n_gnd rest Wp=rest_local_ble_output_pmos
 Xinv_local_ble_output_1 n_1_2 n_2_1 n_vdd n_gnd inv Wn=inv_local_ble_output_1_nmos Wp=inv_local_ble_output_1_pmos
 Xinv_local_ble_output_2 n_2_1 n_out n_vdd n_gnd inv Wn=inv_local_ble_output_2_nmos Wp=inv_local_ble_output_2_pmos
@@ -587,7 +566,7 @@ Xinv_local_ble_output_2 n_2_1 n_out n_vdd n_gnd inv Wn=inv_local_ble_output_2_nm
 ******************************************************************************************
 .subckt general_ble_output n_in n_out n_gate n_gate_n n_vdd n_gnd
 Xptran_general_ble_output n_in n_1_1 n_gate n_gnd ptran Wn=ptran_general_ble_output_nmos
-Xptran_general_ble_output_h n_gnd n_1_1 n_gnd n_gnd ptran Wn=ptran_general_ble_output_nmos
+Xptran_general_ble_output_h n_1_1 n_gnd n_gnd n_gnd ptran Wn=ptran_general_ble_output_nmos
 Xrest_general_ble_output n_1_2 n_2_1 n_vdd n_gnd rest Wp=rest_general_ble_output_pmos
 Xinv_general_ble_output_1 n_1_2 n_2_1 n_vdd n_gnd inv Wn=inv_general_ble_output_1_nmos Wp=inv_general_ble_output_1_pmos
 Xinv_general_ble_output_2 n_2_1 n_out n_vdd n_gnd inv Wn=inv_general_ble_output_2_nmos Wp=inv_general_ble_output_2_pmos
@@ -634,12 +613,12 @@ Xptran_local_mux_L1 n_in n_gnd n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
 ******************************************************************************************
 .subckt local_mux_partial n_in n_gate n_gate_n n_vdd n_gnd
 Xptran_local_mux_L1 n_in n_1 n_gate n_gnd ptran Wn=ptran_local_mux_L1_nmos
-Xptran_local_mux_L1_1h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
-Xptran_local_mux_L1_2h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
-Xptran_local_mux_L1_3h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
-Xptran_local_mux_L1_4h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
-Xptran_local_mux_L1_5h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
-Xptran_local_mux_L1_6h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
+Xptran_local_mux_L1_1h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
+Xptran_local_mux_L1_2h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
+Xptran_local_mux_L1_3h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
+Xptran_local_mux_L1_4h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
+Xptran_local_mux_L1_5h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
+Xptran_local_mux_L1_6h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
 Xptran_local_mux_L2 n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_local_mux_L2_nmos
 .ends local_mux_partial
 
@@ -649,17 +628,17 @@ Xptran_local_mux_L2 n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_local_mux_L2_nmos
 ******************************************************************************************
 .subckt local_mux_on_mux_only n_in n_out n_gate n_gate_n n_vdd n_gnd
 Xptran_local_mux_L1 n_in n_1 n_gate n_gnd ptran Wn=ptran_local_mux_L1_nmos
-Xptran_local_mux_L1_1h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
-Xptran_local_mux_L1_2h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
-Xptran_local_mux_L1_3h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
-Xptran_local_mux_L1_4h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
-Xptran_local_mux_L1_5h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
-Xptran_local_mux_L1_6h n_gnd n_1 n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
+Xptran_local_mux_L1_1h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
+Xptran_local_mux_L1_2h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
+Xptran_local_mux_L1_3h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
+Xptran_local_mux_L1_4h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
+Xptran_local_mux_L1_5h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
+Xptran_local_mux_L1_6h n_1 n_gnd n_gnd n_gnd ptran Wn=ptran_local_mux_L1_nmos
 Xptran_local_mux_L2 n_1 n_out n_gate n_gnd ptran Wn=ptran_local_mux_L2_nmos
-Xptran_local_mux_L2_1h n_gnd n_out n_gnd n_gnd ptran Wn=ptran_local_mux_L2_nmos
-Xptran_local_mux_L2_2h n_gnd n_out n_gnd n_gnd ptran Wn=ptran_local_mux_L2_nmos
-Xptran_local_mux_L2_3h n_gnd n_out n_gnd n_gnd ptran Wn=ptran_local_mux_L2_nmos
-Xptran_local_mux_L2_4h n_gnd n_out n_gnd n_gnd ptran Wn=ptran_local_mux_L2_nmos
+Xptran_local_mux_L2_1h n_out n_gnd n_gnd n_gnd ptran Wn=ptran_local_mux_L2_nmos
+Xptran_local_mux_L2_2h n_out n_gnd n_gnd n_gnd ptran Wn=ptran_local_mux_L2_nmos
+Xptran_local_mux_L2_3h n_out n_gnd n_gnd n_gnd ptran Wn=ptran_local_mux_L2_nmos
+Xptran_local_mux_L2_4h n_out n_gnd n_gnd n_gnd ptran Wn=ptran_local_mux_L2_nmos
 .ends local_mux_on_mux_only
 
 
@@ -719,7 +698,7 @@ Xlocal_mux_off_31 n_in n_gate n_gate_n n_vdd n_gnd local_mux_off
 ******************************************************************************************
 .subckt local_ble_output_load n_in n_gate n_gate_n n_vdd n_gnd
 Xlocal_routing_wire_load_1 n_in n_1_2 n_gate n_gate_n n_vdd n_gnd n_vdd local_routing_wire_load
-Xlut_a_driver_1 n_1_2 n_hang1 vsram vsram_n n_hang2 n_hang3 n_vdd n_gnd lut_a_driver
+Xlut_a_driver_1 n_1_2 n_hang1 vsram vsram_n n_hang2 n_vdd n_gnd lut_a_driver
 
 .ends local_ble_output_load
 
@@ -765,7 +744,7 @@ Xcb_load_partial_1 n_in n_gate n_gate_n n_vdd n_gnd cb_mux_partial
 ******************************************************************************************
 * Routing wire load tile 3
 ******************************************************************************************
-.subckt routing_wire_load_tile_3 n_in n_out n_cb_out n_gate n_gate_n n_vdd n_gnd
+.subckt routing_wire_load_tile_3 n_in n_cb_out n_gate n_gate_n n_vdd n_gnd
 Xsb_load_off_1 n_in n_gate n_gate_n n_vdd n_gnd sb_mux_off
 Xsb_load_off_2 n_in n_gate n_gate_n n_vdd n_gnd sb_mux_off
 Xcb_load_off_1 n_in n_gate n_gate_n n_vdd n_gnd cb_mux_off
@@ -775,7 +754,7 @@ Xcb_load_off_1 n_in n_gate n_gate_n n_vdd n_gnd cb_mux_off
 ******************************************************************************************
 * Routing wire load tile 4
 ******************************************************************************************
-.subckt routing_wire_load_tile_4 n_in n_out n_cb_out n_gate n_gate_n n_vdd n_gnd
+.subckt routing_wire_load_tile_4 n_in n_cb_out n_gate n_gate_n n_vdd n_gnd
 Xsb_load_off_1 n_in n_gate n_gate_n n_vdd n_gnd sb_mux_off
 Xsb_load_off_2 n_in n_gate n_gate_n n_vdd n_gnd sb_mux_off
 Xcb_load_off_1 n_in n_gate n_gate_n n_vdd n_gnd cb_mux_off
